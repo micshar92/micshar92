@@ -2,30 +2,116 @@
 <html lang="en-US">
 
 	<head>
-		<meta name="viewport" content="width=device-width" charset="utf-8">
+		<meta name="viewport" content="width=device-width">
 		<meta name="author" content="Michael Sharber">
 		<meta name="description" content="This is the meta description.">
+		<meta charset=""utf-8">
 		<title>Yumejo</title>
 		<link rel="icon" href="favicon.ico" type="image/x-icon">
-		
-		<link rel="stylesheet" href="my-css-file.css">
+		<link rel="stylesheet" href="style.css">
 	</head>
 
 <body>
+
+	<header>
+		<h1>Sample HTML document (uses almost all elements!)</h1>
+	</header>
+
+	<nav>
+		<ul>
+			<li><a href="#">Home</a></li>
+			<li><a href="Yumejo">Yumejo</a></li>
+			<li><a href="ooo">Out of Order don't click</a></li>
+		</ul>
+		<form>
+			<input type="search" name="search" placeholder="search is broken">
+			<input type="submit" value="Go!!">
+		</form>
+	</nav>
+
+	<hr>
+
+<main>
+	<!--main is for content unique to this page; one per page, inside <body>-->
+	<article>
+		<h1>Article title</h1>
+		<h2>Subheader</h2>
+		<h3>Subsubheader</h3>
+	</article>
+
+	<section>[just a section]</section>
+	<!--section is for parts of a page, and it's best practice when they start with a header-->
+	<!--same goes for <div>s, start them with a header for accessibility-->
+
+	<!--aside is nested within the main content-->
+	<aside>
+	<!--aside can also be FOOTNOTES or AUTHOR BIOGRAPHY-->
+	<ul>
+		<li><a href="#">Oh I do like to be beside the seaside</a></li>
+		<li><a href="#">Oh I do like to be beside the sea</a></li>
+		<li><a href="#">Although in the North of England</a></li>
+		<li><a href="#">It never stops raining</a></li>
+		<li><a href="#">Oh well…</a></li>
+	</ul>
+	</aside>
+
 <p> 日本語 </p>
 <p>The em marks <em>italic emphasis</em> and the strong marks <strong>bold emphasis</strong>. The mark <mark>highlights sex in yellow</mark>. Always keep in mind accessibility.</p>
 <dl>
   <dt>Semantic HTML</dt>
-  <dd>Use the elements based on their <b>semantic</b> meaning, not their appearance.</dd>
+  <dd>Use the elements based on their <b>semantic</b> meaning, not their appearance. This is critical for accessibility.</dd>
 </dl>
 
-<p>Right now, I'm listening to <a href="https://www.youtube.com/watch?v=bB5HSU-V-DQ" title="森の組曲">Forest Suite</a> by Tatsuya Koumazaki and Febian Reza Pane.</p>
+<p>Right now, I'm listening to <a href="https://www.youtube.com/watch?v=bB5HSU-V-DQ" title="森の組曲" target="_blank">Forest Suite</a> by Tatsuya Koumazaki and Febian Reza Pane. (Shinsuke Honda is also fantastic)</p>
 
-<p> Here's an inspiring <a href="/HTML Learning Project/SideGarden.jpg">image for Jackie's family castle</a> from my third novel, Yumejo.</p>
-<!--  above is example of CamelCase
+<p> Here's an inspiring <a href="/HTML-Learning-Project/SideGarden.jpg">image for Jakki's family castle</a> from my third novel, Yumejo.</p>
+<!-- above is an example of CamelCase -->
 	
-<p>Here's a link to a <a href="../micshar92/David Foster Wallace Quote.html">David Foster Wallace quote.</a></p>
-	
+<p>Here's a link to a <a href="../micshar92/David-Foster-Wallace-Quote.html">David Foster Wallace quote.</a></p>
+
+<p>An example of a blockquote:</p>
+<blockquote cite="https://tamingyourtech.com/how-to-stop-arguing-on-the-internet/">“It is the mark of a great mind to rise above insults; the most humiliating kind of revenge is to treat your adversary as not worth taking revenge upon. Many have taken slight injuries too deeply to heart in the course of punishing them. The great and noble are those who, like a lordly beast, listen unmoved to the barking of little dogs.” - Seneca the Younger, On Anger</blockquote>
+
+<p>Link to <a href="https://workdrive.zohoexternal.com/file/gy4tc459880fd0f5c4d228c2823997f1ccc18" download="https://workdrive.zohoexternal.com/file/gy4tc459880fd0f5c4d228c2823997f1ccc18">Zoho's Getting Started with Workdrive guide.</a></p>
+
+<p>My business email link: <a href="mailto:tamingy1@tamingyourtech.com">tamingy1@tamingyourtech.com</a></p>
+
+<p>And here's a link to <a href="#Yumejo">that below header.</a></p>
+
+<p>Plus a link to <a href="XHTML.html/#section">a section from the XHTML sample.</a></p>
+
+<h2 id="Yumejo">What does "Yumejo" mean?</h2>
+<p>In Japanese, "yume (夢)" means "dream" and "-jo (女)" is a suffix that means "woman" or "girl." So "Yumejo" means <sub>i dunno i made it up</sub> "dream girl." It's the name of an app in my novel by the same name.</p>
+<p>One of the characters is princess Jacquelyn Lux Estelle Violette-Worthingham, or <abbr title="ジャッキじゃねえわよ。">Jakki.</abbr> Her fictional address is:</p>
+<address>Jacquelyn Lux Estelle Violette-Worthingham, 1 Violette Lane, Thystia, Auros</address>
+<p>Her birthday is, I dunno, on the 10<sup>th</sup> of December.<sub> I just now made that up.</sub><br>If I were using Markdown, I'd instead write that previous sentence as:</p>
+
+<pre><code>Her birthday is,          I dunno, on
+	 the 10^th^ of December. ~I just now made that up.~</code></pre>
+<p>^ hey look the font changed</p>
+
+<h1 id="ooo">This header is out of order</h1>
+
+<p><abbr title="keyboard">kbd</abbr> stands for keyboard and is used to label direct keyboard input for screen readers, I think. For instance, <kbd>Ctrl</kbd> + <kbd>+</kbd> (that was a bad example).</p>
+<p>Now let's <var>ping</var> my website and use <var>samp.</var></p>
+<samp>PING tamingyourtech.com (35.209.2.124) 56(84) bytes of data.
+	64 bytes from 124.2.209.35.bc.googleusercontent.com (35.209.2.124): icmp_seq=1 ttl=111 time=35.1 ms</samp>
+<p>Good! <sub>Is that good?</sub></p>
+
+<p>This sentence has a <span class="naps">span and the text is bigger, too.</span></p>
+
+<p>In another book of mine, Summer Eve, the hard-nosed, serious, loner geneticist Barry brings his cat to work as a comfort animal. This is what I imagine his Maine Coon, Andromeda, looks like:</p>
+<img src="/HTML-learning-project/Andromeda.jpg">
+
+
+
+<p>Last edit on <time datetime="2022-09-06T16:26">September 6, 2022 at 16:26.</time></p>
+
+</main>
+
+
+<footer>©1984 by Winston Smith. All rights reversed.</footer>
+
 </body>
 
 
