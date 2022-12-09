@@ -2,7 +2,32 @@
     box-sizing: border-box;     /* All-around good thing to add to every page */
 }
 
-head {
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;  /* Preferred icon size */
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+  
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+    /* Support for Safari and Chrome. */
+    text-rendering: optimizeLegibility;
+  
+    /* Support for Firefox. */
+    -moz-osx-font-smoothing: grayscale;
+  
+    /* Support for IE. */
+    font-feature-settings: 'liga';
+  }
+
+#head {
     display: flex;
     flex: 6;
     background-color: #49962c;
@@ -13,25 +38,35 @@ body {
     background-color: #211c18;
 }
 
-.logo {
-    micshar92/micshar92/Technical writing portfolio!/Yeahmanha fake logo.jpg
-}
-
-.column {
-    grid-column-start: 2;
-    grid-row-start: 2;
-    grid-row-end: auto;
-}
-
 h1, h2 {
     color: #49962c;
     font-size: 36px;
+    margin-bottom: -5px;
 }
 
-p {
+h3 {
+    color:#0085f2;
+    font-size: 32px;
+}
+
+h4, feedback {
+    font-size: 26px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    color: #49962c;
+    line-height: 2em;
+}
+
+p, li {
     color: black;
     font-family: Helvetica, Arial, serif;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+figcaption {
     font-size: 16px;
+    text-align: center;
 }
 
 /* IMPORTANT PROJECT #1 */
@@ -43,19 +78,18 @@ p {
     border-radius: 0.25rem;                     /* radius = rounded corners */
     box-shadow: 1px 1px 1px rgba(43, 42, 51, .05);
     margin: 1rem 0;
-    padding: 1rem 1rem 1rem 3rem;
+    padding: 1rem 1rem 1rem 1rem;
     position: relative;
 }
 
 .notecard p:before {
-    display: inline-block;
+    display: block;
     height: 1rem;
     left: 1rem;
-    content: "💡";
     top: 1.5rem;
     width: 1rem;
     margin-block-start: 1em;
-    margin-block-end: 3em;
+    margin-block-end: 1em;
     margin-inline-start: 0;
     margin-inline-end: 0;
 }
@@ -77,9 +111,29 @@ p {
     margin: 0 auto; /* horizontally centers the container */
     background-color: white;
     border: none;
-    padding: 0.5em 2.5rem 1em 1em;
-    border-radius: 5px;
+    padding: 0.5em 0.5rem 1em 1em;
+    border-radius: 10px;
     word-wrap: normal;
-    white-space: pre-wrap;      /* not prewrap but pre(elements)-wrap */
+    white-space: normal;      /* not prewrap but pre(elements)-wrap */
   }
 
+.powerbutton::after {
+    content: url('power-button-icon.jpg');
+}
+
+.centered {
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.feedback {
+    font-size: 30px;
+    text-align: center;
+}
+
+footer {
+    background-color:#49962c;
+}
