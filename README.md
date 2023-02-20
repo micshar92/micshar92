@@ -16,6 +16,6 @@
 
 📫 Email me at LINKEDINEMAILADDRESSHERE
 
-💻 Read my portfolio at micshar92.github.io   <- 👈👍
+💻 Read my portfolio at <a href="micshar92.github.io">micshar92.github.io</a>   <- 👈👍
 
 ---
