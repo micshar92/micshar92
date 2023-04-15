@@ -2,7 +2,7 @@
 
 🚩 Hi, I’m Michael Sharber.
 
-🏭 I aim to be a manufacturing or industrial technical writer, because I'D PREFER TO WORK ON SITE 😮
+🕵️‍♂️ I'm a technical writer looking for my first job.
 
 📚 To learn more about me, books I've read, and courses I've taken, check my About page.
 
