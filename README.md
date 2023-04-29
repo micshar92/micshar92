@@ -12,7 +12,7 @@
 
 📄 And for the condensed version, read my résumé.
 
-🔌 Or network with me on LinkedIn @micshar92
+🔌 Or network with me on LinkedIn @ https://www.linkedin.com/in/micshar92/
 
 📫 Email me at micshar1992@gmail.com
 
