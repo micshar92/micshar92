@@ -14,7 +14,7 @@
 
 🔌 Or network with me on LinkedIn @micshar92
 
-📫 Email me at LINKEDINEMAILADDRESSHERE
+📫 Email me at micshar1992@gmail.com
 
 💻 Read my portfolio at micshar92.github.io   <- 👈👍
 
