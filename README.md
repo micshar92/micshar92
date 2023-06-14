@@ -10,7 +10,7 @@
 
 🌱 See my skills page for software I've learned, coding languages I use, and nifty progress bars.
 
-📄 And for the condensed version, read my résumé.
+📄 And for the condensed version, (https://workdrive.zohoexternal.com/file/mpgmjf15c9ff7f17d44dca0fecb0bd7432316)[read my résumé].
 
 🔌 Or network with me on LinkedIn @ https://www.linkedin.com/in/micshar92/
 
