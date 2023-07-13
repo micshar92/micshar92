@@ -1,14 +1,10 @@
 (hyperlinks in this text are on my portfolio site, micshar92.github.io  )
 
-🚩 Hi, I’m Michael Sharber.
+🚩 Hi, I’m Michael Sharber, a software Technical Writer.
 
-🕵️‍♂️ I'm a technical writer looking for my first job.
+🧶 My work samples page includes my my certifications and various docs I built to improve user retention.
 
-📚 To learn more about me, books I've read, and courses I've taken, check my About page.
-
-🧶 My work samples page includes my technical writing certification and projects I built to get it.
-
-🌱 See my skills page for software I've learned, coding languages I use, and nifty progress bars.
+🌱 See my skills page for software I've learned, coding languages I use, and more.
 
 📄 And for the condensed version, read my résumé (link on my portfolio site).
 💻 Read my portfolio at micshar92.github.io   <- 👈👍
