@@ -7,6 +7,7 @@ hyperlinks in this text are on my portfolio site, micshar92.github.io
 🌱 See my skills page for software I've learned, coding languages I use, and more.
 
 📄 And for the condensed version, read my résumé (link on my portfolio site).
+
 💻 Read my portfolio at micshar92.github.io   <- 👈👍
 
 🔌 Or network with me on LinkedIn @ https://www.linkedin.com/in/micshar92/
