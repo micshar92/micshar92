@@ -10,7 +10,7 @@ hyperlinks in this text are on my portfolio site, micshar92.github.io
 
 💻 Read my portfolio at micshar92.github.io   <- 👈👍
 
-🔌 Or network with me on LinkedIn @ https:// www.linkedin .com/in/micshar92/
+🔌 Or network with me on LinkedIn @ https:// www. linkedin .com/in/micshar92/
 
 📫 Email me at micshar1992 @gmail.com
 
