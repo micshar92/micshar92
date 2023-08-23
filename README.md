@@ -1,4 +1,4 @@
-🚩 Hi, I’m Michael Sharber, a software Technical Writer.
+🪪 Hi, I’m Michael Sharber, a software Technical Writer.
 
 💻 Read my portfolio at micshar92.github.io   <- 👈👍
 
