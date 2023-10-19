@@ -4,7 +4,7 @@
 
 🧶 My work samples include my certifications and various docs I built to improve user retention.
 
-🌱 See my skills section for skills I wield, computer science I concoct, and software I command.
+🌱 See my skills section for writing and project skills, computer science, and software I employ.
 
 📄 And for the condensed version, read my résumé (link on my portfolio site).
 
